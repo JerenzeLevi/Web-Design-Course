@@ -8,6 +8,10 @@
   <i>Design meets intention.</i>
 </p>
 
+<p align="center">
+  <i>[Planned Website for Finals: ](https://jerenzeleviomandam.wixsite.com/omandamportfolio-1).</i>
+</p>
+
 ---
 
 ## 🎨 Concept
