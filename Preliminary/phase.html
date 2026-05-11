@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Third Act: Front-end</title>
+    </head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(wallpaperflare.com_wallpaper.jpg);
+            background-repeat: no-repeat;
+            background-color: rgb(3, 3, 86); 
+            margin: 0;
+            background-size: cover;
+        }
+        .navbar{
+            background-color: black;
+            color: white;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        header li{
+            display: inline;
+            padding: 70px;
+        }
+        .content{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            color: white;
+            padding-left: 40px;
+            line-height: 0.3;
+        }
+        .Log-in_container{
+
+                background-color: lightskyblue;
+                border-radius: 25px;
+                border-color: aqua;
+                padding: 30px;
+                width: 200px;
+                margin-right: 40px;
+                text-align: center;
+                float: right;
+                box-shadow: 0px 3px 5px rgb(180, 212, 247);
+                opacity: 0.9;
+                border: 2px solid lightblue;
+        }
+        .furina{
+            border-radius: 50%;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-style: oblique;
+            color: rgb(33, 33, 119)
+        }
+        label{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(33, 33, 119);
+            font-weight: bold;
+            padding-right: 110px;
+
+        }
+        #username{
+                background-color: lavender;
+                height: 30px;
+                border-radius: 30px;
+                border: 30px;
+                padding-left: 30px;
+            }
+        #password{
+                background-color: lavender;
+                height: 30px;
+                border-radius: 30px;
+                border: 30px;
+                padding-left: 30px;
+                text-align: left;
+            }
+        input[type="submit"]{
+                width: 70%;
+                font-family:'Times New Roman', Times, serif;
+                font-weight: bolder;
+                color: rgb(33, 33, 119);
+                background-color: lavender;
+                border-color: rgb(180, 212, 247);
+                height: 40px;
+                border-radius: 20px;
+            }
+
+    </style>
+    <body>
+        <div class="navbar">
+            <header>
+                <nav>
+                    <ul>
+                        <li style="color: royalblue; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bold;"><big>Omandam</big></li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Service</li>
+                        <li>Design</li>
+                        <li>Contacts</li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <br>
+        <br>
+        </div>
+        <div class="Log-in_container">
+            <image src="fuu.jpg" width="140" height="150" class="furina"></image>
+
+            <h2>Lady Furina's Teapot Party</h2>
+
+            <form method="post" action="">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password" required><br><br><br>
+
+                <input type="submit" value="Log-in">
+
+            </form>
+        </div>
+    </body>
+</html>
